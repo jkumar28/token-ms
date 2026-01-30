@@ -1,0 +1,80 @@
+.body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    width: 360px;
+    background: rgba(255, 255, 255, .1);
+    padding: 30px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #111827;
+    color: #fff;
+}
+
+.sidebar .brand {
+    padding: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #0f172a;
+    text-align: center;
+}
+
+.sidebar a {
+    color: #cbd5e1;
+    text-decoration: none;
+    display: block;
+    padding: 12px 20px;
+    font-size: 15px;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background: #1f2933;
+    color: #fff;
+}
+
+.sidebar i {
+    margin-right: 10px;
+}
+
+.sidebar {
+    transition: .3s;
+}
+
+.sidebar.collapsed {
+    width: 70px;
+}
+
+.main.collapsed {
+    margin-left: 70px;
+}
+
+.btn2 {
+    padding: 5px 25px 1px 25px;
+    text-decoration: none;
+    background-color: #fff41a;
+    color: #000;
+    font-weight: 600;
+}
+
+.btn3 {
+    padding: 0px 25px 2px 25px;
+    text-decoration: none;
+    background-color: #fff41a;
+    color: #000;
+    font-weight: 600;
+}
